@@ -1,0 +1,9 @@
+Hello guys,
+
+FireMonkey fits pretty well for desktop and mobile apps development, now we have wearables and smart tvs, the game has changed, the UI/UX experience on these platforms is pretty unique, although FireMonkey could run on watchOS or tvOS it would not follow the guidelines, I think it is not possible to mimic their controls, for example, watchOS has a very particular UI experience (the GUI elements have a limited API comparated to iOS) and there the guidelines has been taken seriously, the same sense applies to tvOS, but these are unavailable for Delphi. 
+
+Despite the fact we have only 32-bit macOS support, without access to Storyboard file it would not be possible to enjoy MacBook 2016' TouchBar support without having access to Storyboard file. Without having access to the underlying XCode project it is not possible to enable Application Extensions in Delphi apps for iOS as well. I don't see workaround for the lack of integration with XCode and Storyboard. It would be amazing if we get able to access the underlying XCode project and so add Application Extensions and new targets such as Apple Watch and Apple TV even Delphi not supporting it, for these platforms we could use Objective-C/Swift, and Embarcadero could still living not worring about it. 
+
+Now Delphi apps could get compiled into native static libraries and loaded on the XCode project without loss of functionality.
+
+Many thanks :D﻿
